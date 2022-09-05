@@ -51,7 +51,7 @@
     &-inner {
       width: 55%;
       padding: 60px 50px;
-      background: #1b2031;
+      background: #294FE7;
       border-radius: 20px;
       margin-left: -60px;
       margin-right: 20px;
@@ -83,7 +83,7 @@
       }
     }
     &-inner1 {
-      width: 55%;
+      width: 45%;
       padding: 60px 50px;
       background: #912B88;
       border-radius: 20px;
@@ -114,12 +114,76 @@
       }
     }
     &-inner2 {
-      width: 55%;
+      width: 45%;
       padding: 60px 50px;
       background: #399CCD;
       border-radius: 20px;
+      margin-left: -10px;
+      margin-right: 120px;
+
+      position: relative;
+      @include desktop {
+        padding: 25px;
+      }
+      @include desktop {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+      }
+      &-blob {
+        position: absolute;
+        top: -55%;
+        right: -22%;
+        z-index: -1;
+        width: 400.369px;
+        height: 362.909px;
+        svg {
+          width: 200%;
+        }
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+
+    &-inner3 {
+      width: 45%;
+      padding: 60px 50px;
+      background: #309D74;
+      border-radius: 20px;
       margin-left: -60px;
       margin-right: 20px;
+      position: relative;
+      @include desktop {
+        padding: 25px;
+      }
+      @include desktop {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+      }
+      &-blob {
+        position: absolute;
+        top: -55%;
+        right: -22%;
+        z-index: -1;
+        width: 400.369px;
+        height: 362.909px;
+        svg {
+          width: 200%;
+        }
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+    &-inner4 {
+      width: 50%;
+      padding: 60px 50px;
+      background: #DC9802;
+      border-radius: 20px;
+      margin-left: -50px;
+      margin-right: 100px;
       position: relative;
       @include desktop {
         padding: 25px;
