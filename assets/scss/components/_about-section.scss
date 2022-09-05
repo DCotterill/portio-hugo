@@ -31,6 +31,7 @@
         img {
           height: 100%;
           width: 100%;
+
           &.about_mask_svg {
             mask: url(../images/about/about-mask-svg.svg);
             -webkit-mask-repeat: no-repeat;
@@ -39,6 +40,13 @@
           }
         }
       }
+      .howitworks_content-thumb-image {
+        img {
+          height: 50%;
+          width: 50%;
+          }
+        }
+
     }
     &-inner {
       width: 55%;
@@ -46,6 +54,41 @@
       background: #1b2031;
       border-radius: 20px;
       margin-left: -60px;
+      margin-right: 20px;
+      position: relative;
+      @include desktop {
+        padding: 25px;
+      }
+      @include desktop {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+      }
+
+      &-blob {
+        position: absolute;
+        top: -55%;
+        right: -22%;
+        z-index: -1;
+        width: 400.369px;
+        height: 362.909px;
+
+        svg {
+          width: 200%;
+        }
+
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+    &-inner1 {
+      width: 55%;
+      padding: 60px 50px;
+      background: #912B88;
+      border-radius: 20px;
+      margin-left: -60px;
+      margin-right: 20px;
       position: relative;
       @include desktop {
         padding: 25px;
@@ -63,12 +106,44 @@
         width: 400.369px;
         height: 362.909px;
         svg {
-          width: 140%;
+          width: 200%;
         }
         @include tablet {
           display: none;
         }
       }
     }
+    &-inner2 {
+      width: 55%;
+      padding: 60px 50px;
+      background: #399CCD;
+      border-radius: 20px;
+      margin-left: -60px;
+      margin-right: 20px;
+      position: relative;
+      @include desktop {
+        padding: 25px;
+      }
+      @include desktop {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+      }
+      &-blob {
+        position: absolute;
+        top: -55%;
+        right: -22%;
+        z-index: -1;
+        width: 400.369px;
+        height: 362.909px;
+        svg {
+          width: 200%;
+        }
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+
   }
 }
