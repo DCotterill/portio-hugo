@@ -1,7 +1,7 @@
-.blog-page {
+.team-page {
 	&__item {
 		position: relative;
-		margin-bottom: 180px;
+		margin-bottom: 50px;
 		&-thumb {
 			width: 90%;
 			height: 100%;
@@ -46,8 +46,8 @@
 			}
 		}
 		&:hover {
-			.blog-page__item-thumb img {
-				transform: scale(1.1);
+			.team-page__item-thumb img {
+				transform: scale(1.05);
 			}
 		}
 	}
