@@ -26,12 +26,6 @@
 		<div class="row">
 			<div class="col-12 text-center">
 				<h3 class="breadCrumb__title">{{ .Title }}</h3>
-<!--				<nav aria-label="breadcrumb" class="d-flex justify-content-center">-->
-<!--					<ol class="breadcrumb align-items-center">-->
-<!--						<li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>-->
-<!--						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>-->
-<!--					</ol>-->
-<!--				</nav>-->
 			</div>
 		</div>
 	</div>
@@ -44,7 +38,7 @@
 			<div class="col-lg-4">
 				<div class="team-page__item">
 					<div class="team-page__item-thumb">
-						<img src="{{ .Params.featureImage | absURL }}" alt="post-image">
+						<img src="{{ .Params.featureImage | absURL }}" alt="team-image">
 					</div>
 					<div class="team-page__item-content bg-white">
 <!--						<span class="small">{{ .PublishDate.Format "January 2, 2006" }}</span>-->
